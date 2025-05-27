@@ -1,0 +1,108 @@
+.rightPanel {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.calendar {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.weekDays,
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 0.5rem;
+}
+
+.dates span {
+  text-align: center;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dates span:hover {
+  background-color: #e0e7ff;
+}
+
+.dates .active {
+  background-color: #4e73df;
+  color: white;
+  font-weight: bold;
+}
+
+.schedule {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.schedule h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.schedule ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.schedule li {
+  flex: 0 0 calc(50% - 8px);
+  background-color: #f0f4ff;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.icon {
+  color: #4f46e5;
+}
+
+
+
+.rightIcons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ justify-content: flex-end;
+ margin-bottom: 5px;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.addBtn {
+  background-color: #0066cc;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+}

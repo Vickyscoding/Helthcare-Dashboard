@@ -1,0 +1,49 @@
+.sidebar {
+  width: 220px;
+  background-color: #f0f4fa;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.05);
+  top: 0;
+  left: 0;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dad2d2;
+  margin-bottom: 1.5rem;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.6rem 0;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: #e6f0ff;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0066cc;
+}

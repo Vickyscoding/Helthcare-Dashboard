@@ -1,0 +1,52 @@
+.anatomySection {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.imageWrapper {
+  position: relative;
+  text-align: center;
+}
+
+.image {
+  width: 280px;
+  height: auto;
+}
+
+.indicator {
+  position: absolute;
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Positioning each label */
+.heart {
+  top: 30%;
+  left: 45%;
+  color: green;
+}
+
+.lungs {
+  top: 40%;
+  left: 40%;
+  color: red;
+}
+
+
+.bone {
+  bottom: 10%;
+  left: 60%;
+  color: #8e44ad;
+}

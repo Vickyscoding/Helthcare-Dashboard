@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  width: 350px;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.cardDentist {
+  background-color: #3d4ef5;
+  color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 220px;
+  font-family: sans-serif;
+}
+
+.cardPhysio {
+  background-color: #e9ecff;
+  color: #000;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 250px;
+  font-family: sans-serif;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.time {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.doctor {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}

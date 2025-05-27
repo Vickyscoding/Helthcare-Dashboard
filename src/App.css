@@ -1,0 +1,12 @@
+
+.appContainer {
+  display: inline-flex;
+}
+
+.maincontent {
+   width: calc(100% - 220px);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #fff;
+}
